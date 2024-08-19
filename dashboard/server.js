@@ -93,6 +93,11 @@ module.exports = async bot => {
       express.static(path.join(__dirname, 'views/yandex_64e238a178b33e80.html'))
   );
 
+    app.use(
+      "/robots.txt",
+      express.static(path.join(__dirname, 'views/robots.txt'))
+  );
+
     const checkAuth = (req, res, next) => {
         if (req.isAuthenticated()) return next();
         req.session.backURL = req.url;
