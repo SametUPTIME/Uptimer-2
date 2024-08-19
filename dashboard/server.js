@@ -78,6 +78,21 @@ module.exports = async bot => {
       express.static(path.join(__dirname, 'views/img'))
   );
 
+    app.use(
+      "/xml",
+      express.static(path.join(__dirname, 'views/xml'))
+  );
+
+    app.use(
+      "/BingSiteAuth.xml",
+      express.static(path.join(__dirname, 'views/BingSiteAuth.xml'))
+  );
+
+   app.use(
+      "/yandex_64e238a178b33e80.html",
+      express.static(path.join(__dirname, 'views/yandex_64e238a178b33e80.html'))
+  );
+
     const checkAuth = (req, res, next) => {
         if (req.isAuthenticated()) return next();
         req.session.backURL = req.url;
