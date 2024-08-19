@@ -7,8 +7,8 @@
     },
     "dashboard": {
         "port": 3000,
-        "url": "https://www.neseuptime.42web.io",
-        "callback": "https://www.neseuptime.42web.io/callback",
+        "url": "https://server-1.neseuptime.42web.io",
+        "callback": "https://server-1.neseuptime.42web.io/callback",
         "discord_server_ID": "1133063758013550766",
         "ownerids": ["1133057771839959090", ""],
         "ownershow": true,
