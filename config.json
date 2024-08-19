@@ -7,8 +7,8 @@
     },
     "dashboard": {
         "port": 3000,
-        "url": "https://sametuptime-8rey.onrender.com",
-        "callback": "https://sametuptime-8rey.onrender.com/callback",
+        "url": "https://www.neseuptime.42web.io",
+        "callback": "https://www.neseuptime.42web.io/callback",
         "discord_server_ID": "1133063758013550766",
         "ownerids": ["1133057771839959090", ""],
         "ownershow": true,
@@ -28,5 +28,5 @@
         }
     },
     "mongodb": "mongodb+srv://sametuptime:sametuptime@sametuptime.rikwi.mongodb.net/?retryWrites=true&w=majority&appName=sametuptime",
-    "discord": "discord.gg/yourserverlink"
+    "discord": "dsc.gg/neseos"
  }
