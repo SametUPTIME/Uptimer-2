@@ -22,7 +22,7 @@ module.exports = async bot => {
         new Strategy(
           {
             clientID: config.bot.id,
-            clientSecret: config.bot.secret,
+            clientSecret: process.env.secret,
             callbackURL: config.dashboard.callback,
             scope: ["identify"]
           },
@@ -152,7 +152,7 @@ module.exports = async bot => {
     });
 
     app.get("/privacy", (req, res) => {
-        res.redirect("https://guitarhost.tech/privacy-policy")
+        res.redirect("")
     });
 
     app.get("/join", (req, res) => {
