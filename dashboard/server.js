@@ -93,6 +93,11 @@ module.exports = async bot => {
       express.static(path.join(__dirname, 'views/yandex_64e238a178b33e80.html'))
   );
 
+app.use(
+      "/yandex_a753c32a76f95d42.html",
+      express.static(path.join(__dirname, 'views/yandex_a753c32a76f95d42.html'))
+  );
+
     app.use(
       "/robots.txt",
       express.static(path.join(__dirname, 'views/robots.txt'))
