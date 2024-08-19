@@ -7,7 +7,7 @@ $(document).on('click', '.dropdown-menu', function (e) {
       place.src='https://i.hizliresim.com/rxb5f2.png';
   }
   var i = 0;
-  var txt = "<a href='https://nighthost.tech' style='color: #ff0000'>© NightHost 2021</a>";
+  var txt = "<a href='' style='color: #FF5349'>Copyright NeseOS</a>";
   var speed = 50;
   
   $(function() {
