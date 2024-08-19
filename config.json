@@ -9,8 +9,8 @@
         "port": 3000,
         "url": "https://sametuptime-8rey.onrender.com",
         "callback": "https://sametuptime-8rey.onrender.com/callback",
-        "discord_server_ID": "1133057771839959090",
-        "ownerids": ["862621966317912084", ""],
+        "discord_server_ID": "1133063758013550766",
+        "ownerids": ["1133057771839959090", ""],
         "ownershow": true,
         "owners": [
             {
@@ -27,6 +27,6 @@
             "code": ""
         }
     },
-    "mongodb": "mongodb+srv://Just:just@just.yjl3l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb": "mongodb+srv://sametuptime:sametuptime@sametuptime.rikwi.mongodb.net/?retryWrites=true&w=majority&appName=sametuptime",
     "discord": "discord.gg/yourserverlink"
  }
